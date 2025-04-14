@@ -9,7 +9,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 app = Flask(__name__)
 
 # Hardcoded resume path
-PDF_PATH = "/Users/raghav/Desktop/rajaprerak.github.io-master/myresumemain (1).pdf"
+PDF_PATH = "myresumemain (1).pdf"
 
 def extract_text_from_pdf(pdf_path):
     text = []
